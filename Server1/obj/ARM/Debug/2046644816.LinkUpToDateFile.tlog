@@ -1,1 +1,0 @@
-g++ -o "/home/pi/projects/Server1/bin/ARM/Debug/Server1.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack "/home/pi/projects/Server1/obj/ARM/Debug/digest-base.o" "/home/pi/projects/Server1/obj/ARM/Debug/digest-sha-256.o" /home/pi/projects/Server1/obj/ARM/Debug/main.o
