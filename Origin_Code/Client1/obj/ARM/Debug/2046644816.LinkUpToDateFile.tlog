@@ -1,0 +1,1 @@
+g++ -o "/home/pi/projects/Client1/bin/ARM/Debug/Client1.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack "/home/pi/projects/Client1/obj/ARM/Debug/digest-base.o" "/home/pi/projects/Client1/obj/ARM/Debug/digest-sha-256.o" /home/pi/projects/Client1/obj/ARM/Debug/main.o
