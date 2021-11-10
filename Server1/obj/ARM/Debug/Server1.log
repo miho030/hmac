@@ -1,0 +1,19 @@
+﻿  원격 프로젝트 디렉터리를 정리하는 중
+  소스의 유효성을 검사하는 중
+  소스를 '192.168.0.14'(으)로 원격으로 복사하는 중
+  아키텍처의 유효성을 검사하는 중
+  아키텍처의 유효성을 검사하는 중
+  원격 빌드를 시작하는 중
+  소스를 컴파일하는 중:
+  digest-base.cpp
+C:\Users\Administrator\Documents\BoB10_SEDR\Hmac_Test\Server1\digest-base.cpp(77,32): warning : conversion from ‘unsigned int’ to ‘char’ may change value [-Wconversion]
+C:\Users\Administrator\Documents\BoB10_SEDR\Hmac_Test\Server1\digest-base.cpp(77,32): warning : conversion from ‘unsigned int’ to ‘char’ may change value [-Wconversion]
+C:\Users\Administrator\Documents\BoB10_SEDR\Hmac_Test\Server1\digest-base.cpp(78,32): warning : conversion from ‘unsigned int’ to ‘char’ may change value [-Wconversion]
+C:\Users\Administrator\Documents\BoB10_SEDR\Hmac_Test\Server1\digest-base.cpp(78,32): warning : conversion from ‘unsigned int’ to ‘char’ may change value [-Wconversion]
+  digest-sha-256.cpp
+C:\Users\Administrator\Documents\BoB10_SEDR\Hmac_Test\Server1\digest-sha-256.cpp(12,26): warning : conversion from ‘unsigned int’ to ‘__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type’ {aka ‘char’} may change value [-Wconversion]
+C:\Users\Administrator\Documents\BoB10_SEDR\Hmac_Test\Server1\digest-sha-256.cpp(12,26): warning :      t[i + 0] = (x >> 24) & 0xff;
+C:\Users\Administrator\Documents\BoB10_SEDR\Hmac_Test\Server1\digest-sha-256.cpp(12,26): warning :                 ~~~~~~~~~~^~~~~~
+  main.cpp
+  개체를 연결하는 중
+  Server1.vcxproj -> C:\Users\Administrator\Documents\BoB10_SEDR\Hmac_Test\Server1\bin\ARM\Debug\Server1.out
